@@ -1,0 +1,286 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'tr' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ilhan/Desktop/Tower Defense Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52600
+Successfully changed project path to: C:/Users/ilhan/Desktop/Tower Defense Game
+C:/Users/ilhan/Desktop/Tower Defense Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25208] Host "[IP] 10.53.3.145 [Port] 0 [Flags] 2 [Guid] 3938501571 [EditorId] 3938501571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNI01LB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25208] Host "[IP] 10.53.3.145 [Port] 0 [Flags] 2 [Guid] 3938501571 [EditorId] 3938501571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNI01LB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 3.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ilhan/Desktop/Tower Defense Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010498 seconds.
+- Loaded All Assemblies, in  0.524 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 988ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Failed loading assembly 'Assets/sqldb/Mono.Data.Sqlite.dll' reason: File does not contain a valid CIL image
+Loading assembly failed: "Assets/sqldb/Mono.Data.Sqlite.dll" reason: File does not contain a valid CIL image
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Assertion failed on expression: 'reloadOk'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (50.6 KB). Loaded Objects now: 725.
+Memory consumption went from 57.7 MB to 57.7 MB.
+Total: 3.495500 ms (FindLiveObjects: 0.071100 ms CreateObjectMapping: 0.014100 ms MarkObjects: 3.309100 ms  DeleteObjects: 0.099700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16153.508669 seconds.
+  path: Assets/All/Props/Materials/Wood2.mat
+  artifactKey: Guid(0e8521d0599f3be4da566a38a659b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Props/Materials/Wood2.mat using Guid(0e8521d0599f3be4da566a38a659b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601a609e7b6a62618aee7d49d2af1bbd') in 0.201178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/All/Props/Materials/Wood1.mat
+  artifactKey: Guid(aed90b2becf36c44792afdec44fd12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Props/Materials/Wood1.mat using Guid(aed90b2becf36c44792afdec44fd12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6596d1175b7f680dbe4b89de111a705a') in 0.018729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.794020 seconds.
+  path: Assets/All/Tiles/riverTile.fbx
+  artifactKey: Guid(4a711cfd9de59284a81eb9a0b6734432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/riverTile.fbx using Guid(4a711cfd9de59284a81eb9a0b6734432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9470dd153c0ffb0eb9f526cd9e88ce9c') in 0.128336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/All/Tiles/simpleTile.FBX
+  artifactKey: Guid(7c8eca8ad21e87b4ca86092ecbfb815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/simpleTile.FBX using Guid(7c8eca8ad21e87b4ca86092ecbfb815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea40db18f499440a1c9fa86c37f1e01') in 0.023326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/All/Tiles/roadLineTile.fbx
+  artifactKey: Guid(30f9fb788eef4554ca14c81e5c0eebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/roadLineTile.fbx using Guid(30f9fb788eef4554ca14c81e5c0eebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0e6eb2a6c55a3977ccc4a825e6bacf') in 0.022534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/All/Tiles/roadForkTile.fbx
+  artifactKey: Guid(2939f1cb4609c7540bcabb23da066f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/roadForkTile.fbx using Guid(2939f1cb4609c7540bcabb23da066f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe0600d462413d8951b7f9253d67993') in 0.022572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/All/Tiles/roadAngleTile.fbx
+  artifactKey: Guid(e834b34533a1cfc45bc74f5b2c152976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/roadAngleTile.fbx using Guid(e834b34533a1cfc45bc74f5b2c152976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b515f1337aa778395976e1190511ad8e') in 0.025863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/All/Tiles/seaTile.fbx
+  artifactKey: Guid(719a57476c23ae3448a552264edfdaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/seaTile.fbx using Guid(719a57476c23ae3448a552264edfdaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd1d3b9e76d07ef5b0f4e0489352256') in 0.025326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/All/Tiles/roadCrossTile.fbx
+  artifactKey: Guid(6a1f8c3564a6f2049aa3289ab75f15ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Tiles/roadCrossTile.fbx using Guid(6a1f8c3564a6f2049aa3289ab75f15ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd944e6a1cb141f82bea5c913db8e67') in 0.025288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.968748 seconds.
+  path: Assets/Icons/LaserBeamerIcon.png
+  artifactKey: Guid(a48d54caf58e38b408ad19a22cd4f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/LaserBeamerIcon.png using Guid(a48d54caf58e38b408ad19a22cd4f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86178d507d9c72c7ab7a6166bcd78073') in 0.033496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Icons/StandardTurretIcon.psd
+  artifactKey: Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/StandardTurretIcon.psd using Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae495d6499d34f91b3152dbab8347fa') in 0.070319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Icons/MissileLauncherIcon.png
+  artifactKey: Guid(62fb25501bc41d247ab4db84b757e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/MissileLauncherIcon.png using Guid(62fb25501bc41d247ab4db84b757e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c794ca3b022c6848561e1285dde329f') in 0.037858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 53.749609 seconds.
+  path: Assets/All/Materials
+  artifactKey: Guid(50744f34778506c4cbcc443bd1087d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All/Materials using Guid(50744f34778506c4cbcc443bd1087d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6a7d0fef580db1f9c70bf3b87dc443') in 0.001430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

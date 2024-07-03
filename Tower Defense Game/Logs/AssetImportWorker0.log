@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'tr' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ilhan/Desktop/Tower Defense Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52940
+Successfully changed project path to: C:/Users/ilhan/Desktop/Tower Defense Game
+C:/Users/ilhan/Desktop/Tower Defense Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18072] Host "[IP] 10.53.3.145 [Port] 0 [Flags] 2 [Guid] 526285007 [EditorId] 526285007 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNI01LB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18072] Host "[IP] 10.53.3.145 [Port] 0 [Flags] 2 [Guid] 526285007 [EditorId] 526285007 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNI01LB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ilhan/Desktop/Tower Defense Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012043 seconds.
+- Loaded All Assemblies, in  0.938 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 1370ms
+	BeginReloadAssembly (427ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Failed loading assembly 'Assets/sqldb/Mono.Data.Sqlite.dll' reason: File does not contain a valid CIL image
+Loading assembly failed: "Assets/sqldb/Mono.Data.Sqlite.dll" reason: File does not contain a valid CIL image
+- Loaded All Assemblies, in  0.628 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Assertion failed on expression: 'reloadOk'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (50.3 KB). Loaded Objects now: 725.
+Memory consumption went from 57.7 MB to 57.7 MB.
+Total: 4.987900 ms (FindLiveObjects: 0.086900 ms CreateObjectMapping: 0.012700 ms MarkObjects: 4.764900 ms  DeleteObjects: 0.122100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18832.953347 seconds.
+  path: Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Barrels.mat
+  artifactKey: Guid(bbaad39f30d3f7545becfa0331865278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Barrels.mat using Guid(bbaad39f30d3f7545becfa0331865278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa1b25768408ab2968611b5644ee22a') in 0.241140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imports/Standard Turret/Materials/Turret_GunMetal.mat
+  artifactKey: Guid(222e1ba784ef20f48b0316622bdb00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials/Turret_GunMetal.mat using Guid(222e1ba784ef20f48b0316622bdb00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5696dfadbfaed8835d380d748eaf9be') in 0.020888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Secondary.mat
+  artifactKey: Guid(7a8a1f4e6545be844a833691901d0d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Secondary.mat using Guid(7a8a1f4e6545be844a833691901d0d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea67a65793fb89426bef3d306ed5eb') in 0.017066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Imports/Standard Turret/Materials/Turret_Main.mat
+  artifactKey: Guid(a8ffd7bb5105d0742893854dfc542df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials/Turret_Main.mat using Guid(a8ffd7bb5105d0742893854dfc542df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502280ace57a80bdd2d8ed460f131f2b') in 0.017959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Imports/Standard Turret/Materials/Turret_Barrels.mat
+  artifactKey: Guid(4dd72481ce4edfa40821df8f174001b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials/Turret_Barrels.mat using Guid(4dd72481ce4edfa40821df8f174001b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97607cb86c0aca605db24a71c18c036d') in 0.018224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Imports/Standard Turret/Materials/Turret_Secondary.mat
+  artifactKey: Guid(3373cb8ba9c438c458d1172df2850e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials/Turret_Secondary.mat using Guid(3373cb8ba9c438c458d1172df2850e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff4e24bf1a54d6ae51ed5c31194dd8') in 0.017551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Main.mat
+  artifactKey: Guid(d6afbabf7aab242498205e6310a0f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Standard Turret/Materials_Upgraded/Turret_Upgraded_Main.mat using Guid(d6afbabf7aab242498205e6310a0f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67149625971cf7e20a0c63ba05ee4752') in 0.017259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.333146 seconds.
+  path: Assets/tower-defense-assets/Models/Laser Beamer
+  artifactKey: Guid(fce35e5f41b6e1a4ba425f978e2c3338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Models/Laser Beamer using Guid(fce35e5f41b6e1a4ba425f978e2c3338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2dae44403c9786d28126aa1b1c1c61') in 0.001121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.135958 seconds.
+  path: Assets/tower-defense-assets/Models/Laser Beamer/Laser Beamer.fbx
+  artifactKey: Guid(a294aabc36bf79b4098f00431b4ca003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Models/Laser Beamer/Laser Beamer.fbx using Guid(a294aabc36bf79b4098f00431b4ca003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1818255838335ea2111b4e5dd0cab580') in 0.104886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.557149 seconds.
+  path: Assets/tower-defense-assets/Sprites/LaserBeamerIcon.png
+  artifactKey: Guid(1d735ebad993f324ea2cec8e7cd596ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/LaserBeamerIcon.png using Guid(1d735ebad993f324ea2cec8e7cd596ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc66c478f40b659a21e2b6c09b7f62') in 0.028923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/tower-defense-assets/Sprites/WhiteSquare.jpg
+  artifactKey: Guid(3f145ef61360e6c4696f87909a26eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/WhiteSquare.jpg using Guid(3f145ef61360e6c4696f87909a26eb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554e1bb151f9fddfb6e229236786fb85') in 0.014166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/tower-defense-assets/Sprites/StandardTurretIcon_PSD.psd
+  artifactKey: Guid(fae548e2cf6c6d24fa6105afcf99687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/StandardTurretIcon_PSD.psd using Guid(fae548e2cf6c6d24fa6105afcf99687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8775434e16cfb1b36ad63b06ed198196') in 0.013273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/tower-defense-assets/Sprites/MissileLauncherIcon_PSD.psd
+  artifactKey: Guid(b404f39371eb3bc4fa09d5a903f2ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/MissileLauncherIcon_PSD.psd using Guid(b404f39371eb3bc4fa09d5a903f2ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75135aa1dce0d1348816c1b3045b3d32') in 0.018236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/tower-defense-assets/Sprites/MissileLauncherIcon.png
+  artifactKey: Guid(9ddbb00331b53f74ea95f55ad4ab1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/MissileLauncherIcon.png using Guid(9ddbb00331b53f74ea95f55ad4ab1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d1152590513ccaf4a988ddfee2a54c') in 0.012588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/tower-defense-assets/Sprites/LaserBeamerIcon_PSD.psd
+  artifactKey: Guid(16d2edba083fc1c4d8e9a319b62be7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/LaserBeamerIcon_PSD.psd using Guid(16d2edba083fc1c4d8e9a319b62be7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dfb3b90804042f214c116785fd9ae1') in 0.020243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/tower-defense-assets/Sprites/StandardTurretIcon.png
+  artifactKey: Guid(9106b078279ce0c41b369b5d675d4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tower-defense-assets/Sprites/StandardTurretIcon.png using Guid(9106b078279ce0c41b369b5d675d4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6becb76f27f53937cd5dc97191b4bd3') in 0.020457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.137883 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(8b03ac5be9fd7f046ad064224fc07643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(8b03ac5be9fd7f046ad064224fc07643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d1e1e22accc340be38ae6db5caeb1') in 0.000955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.101212 seconds.
+  path: Assets/Enemies/Fast
+  artifactKey: Guid(934e4f94109efe142bf1bbfc2dab19d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Fast using Guid(934e4f94109efe142bf1bbfc2dab19d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bbcb82f213f4dc3f43e9cb0f1e4d79') in 0.000719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
